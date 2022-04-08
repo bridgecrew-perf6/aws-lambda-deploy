@@ -9,3 +9,4 @@ region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
 image_repositories = ["HelloWorldFunction=682227818354.dkr.ecr.us-east-1.amazonaws.com/nslambdacodedeployede531d5/helloworldfunction19d43fc4repo"]
+disable_rollback = false
