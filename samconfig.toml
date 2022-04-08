@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ns-lambda-codedeploy"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-16liybq02e88u"
+s3_prefix = "ns-lambda-codedeploy"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=682227818354.dkr.ecr.us-east-1.amazonaws.com/nslambdacodedeployede531d5/helloworldfunction19d43fc4repo"]

@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - myLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "ns-lambda-codedeploy-HelloWorldFunction-Csxg1DaowW6D"
+        Alias: "version"
+        CurrentVersion: "2"
+        TargetVersion: "3"
