@@ -20,7 +20,7 @@ exports.lambdaHandler = async (event, context) => {
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: 'Testing aliasing---7',
+                message: 'Lambda using Sam CLI',
                 // location: ret.data.trim()
             })
         }
